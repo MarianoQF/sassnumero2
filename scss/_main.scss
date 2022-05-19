@@ -1,0 +1,13 @@
+.secundaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-secondary;
+    border: solid;
+        h2{
+            font-size: 18px;
+        }
+        p{
+            color: $color-letras;
+        }
+}

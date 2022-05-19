@@ -1,0 +1,35 @@
+// compilacion de archivos
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+
+header{
+    border-color: $color-letras;
+        h1{
+            border-color: $color-3;
+        }
+        p{
+            border-color: $color-secondary
+        }
+}
+
+main{
+    border-color: $color-letras;
+        h2{
+            border-color: $color-3;
+        }
+        p{
+        border-color: $color-primary
+        }
+}
+
+footer{
+    border-color: $color-letras;
+        h3{
+            border-color: $color-primary;
+        }
+        p{
+            border-color: $color-secondary
+        }
+}
