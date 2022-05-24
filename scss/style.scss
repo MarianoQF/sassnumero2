@@ -6,3 +6,26 @@
 @import "experiencia";
 @import "contacto";
 @import "media";
+
+// Propiedades de css que aplican a todos
+
+// propiedades imagen de todos los header
+.img-header{
+    height: 600px;
+}
+
+// textos
+.parraf-gral{
+    font-size: 25px;
+}
+
+// footer
+.foot-gral{
+    color: $color1;
+    background-color: $color2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+

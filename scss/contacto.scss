@@ -1,0 +1,44 @@
+.form-regist{
+    width: 700px;
+    background: $color3;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px; 
+    font-family: "calibri";
+    color: $color1;
+    box-shadow: 7px 13px 37px $color2;
+        h4{
+         font-size: 22px;
+         margin-bottom: 20px;
+    }
+        .boton-f{
+         width: 100%;
+         background: $color4;
+         border: none;
+         padding: 12px;
+         color: $color1;
+         margin: 16px 0;
+         font-size: 20px;
+         font-family: "calibri";
+    } 
+}
+
+.complet{
+    width: 100%;
+    background: $color3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $color4;
+    font-family: "calibri";
+    font-size: 18px;
+    color: $color1;
+}
+
+.inv-form{
+    width:30%;
+    padding: 5px;
+    font-size: 30px;
+}
+
