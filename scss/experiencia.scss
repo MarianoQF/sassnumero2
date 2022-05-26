@@ -1,0 +1,46 @@
+// Operaciones
+$spacing: 5px;
+
+.prueba-op{
+    padding: $spacing*2;
+}
+
+// Mapa
+$decor: (
+    rojo: #ff0000,
+    azul: #0000ff,
+    verde: #008000
+);
+
+@each $color, $tono in $decor {
+    .color-#{$color} {
+        color: $tono;
+    }
+}
+
+// Extend
+.cuadro{
+    border:solid 2px;
+    padding: 10px 15px;
+}
+
+.cuadro-segundo{
+    @extend .cuadro;
+    border-color: rgb(1, 26, 26);
+    background-color: rgb(70, 69, 69);
+}
+
+// Mixins
+@mixin letras {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.fuente{
+    @include letras;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

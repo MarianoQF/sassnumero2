@@ -7,6 +7,34 @@
 .img-cli {
   width: 300px; }
 
+.prueba-op {
+  padding: 10px; }
+
+.color-rojo {
+  color: #ff0000; }
+
+.color-azul {
+  color: #0000ff; }
+
+.color-verde {
+  color: #008000; }
+
+.cuadro, .cuadro-segundo {
+  border: solid 2px;
+  padding: 10px 15px; }
+
+.cuadro-segundo {
+  border-color: #011a1a;
+  background-color: #464545; }
+
+.fuente {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
 .form-regist {
   width: 700px;
   background: #24303c;
