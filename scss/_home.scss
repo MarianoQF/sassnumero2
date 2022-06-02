@@ -1,4 +1,22 @@
 
+.parraf-gral{
+    font-size: 25px;
+}
+.text-maindex{
+    width: 60%;
+    padding:5rem;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-maindex{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    .reimagen-main{
+        width:40%;
+    }
+}
 .alg-clientes{
     display: flex;
     align-items: center;
@@ -7,5 +25,5 @@
 }
 
 .img-cli{
-    width: 300px;
+    width: 200px;
 }
