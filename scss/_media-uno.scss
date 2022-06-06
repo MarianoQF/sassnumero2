@@ -21,11 +21,30 @@
 }
 
 // media de sobrenos.html 768px
-@media screen and (max-width:768px){}
+@media screen and (max-width:768px){
+    .sobrenos-main{
+        padding: 5px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .sobre-tit{
+            align-items: center;
+        }
+        .parraf-gral{
+            font-size: 14px;
+            align-items: center;
+        }
+        .sobrenos-imgmain{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
 
 // media de formacion.html 768px
 @media screen and (max-width:768px){}
-
+.parraf-gral-for{
+    font-size: 14px;
+}
 // media de experiencia.html 768px
 @media screen and (max-width:768px){}
 

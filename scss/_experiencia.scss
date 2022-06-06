@@ -7,9 +7,9 @@ $spacing: 5px;
 
 // Mapa
 $decor: (
-    rojo: #ff0000,
-    azul: #0000ff,
-    verde: #008000
+    negro: #160101,
+    azul: #0b0b30,
+    verde: #011b01
 );
 
 @each $color, $tono in $decor {
@@ -26,8 +26,8 @@ $decor: (
 
 .cuadro-segundo{
     @extend .cuadro;
-    border-color: rgb(1, 26, 26);
-    background-color: rgb(70, 69, 69);
+    border-color: rgb(161, 252, 252);
+    background-color: rgb(5, 82, 82);
 }
 
 // Mixins
@@ -43,4 +43,9 @@ $decor: (
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.subtitulo-exp{
+    padding: 20px;
+    font-weight: 500;
 }
