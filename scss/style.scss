@@ -10,6 +10,9 @@
 // Propiedades de css que aplican a todos
 
 // Propiedades del nav
+.mq-nav-bar{
+    position: fixed;
+}
 .mq-nav{
     font-weight: 400;
     font-family: 'Anton', sans-serif;
