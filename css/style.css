@@ -259,6 +259,10 @@
     font-size: 20px !important;
     font-weight: 100; } }
 
+.mq-nav {
+  font-weight: 400;
+  font-family: 'Anton', sans-serif; }
+
 .img-header {
   height: 600px;
   background-image: url("../imagenes/portadaslet.png"); }
