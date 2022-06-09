@@ -1,0 +1,33 @@
+// Propiedades Formación
+
+.parraf-gral-for{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cert-for{
+    display: grid;
+    grid-template-areas:
+    "img-forM1 img-forM2"
+    "img-forM3 img-forM4";
+}
+
+.img-forM1{
+    grid-area: img-forM1;
+    padding: 20px;
+}
+
+.img-forM2{
+    grid-area: img-forM2;
+    padding: 20px;
+}
+
+.img-forM3{
+    grid-area: img-forM3;
+    padding: 20px;
+}
+
+.img-forM4{
+    grid-area: img-forM4;
+    padding: 20px;
+}

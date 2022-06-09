@@ -1,3 +1,6 @@
+// Propiedades de la pestaña experiencia
+// Ademas contiene las distintas funciones del sass
+
 // Operaciones
 $spacing: 5px;
 
@@ -8,8 +11,8 @@ $spacing: 5px;
 // Mapa
 $decor:(
     negro: #160101,
-    azul: #0b0b30,
-    verde: #011b01
+    azul: #0f0f5a,
+    verde: #034403
 );
 
 @each $color, $tono in $decor {
@@ -26,15 +29,15 @@ $decor:(
 
 .cuadro-segundo{
     @extend .cuadro;
-    border-color: rgb(161, 252, 252);
-    background-color: rgb(5, 82, 82);
+    border-color: rgb(5, 82, 82);
+    background-color: rgb(182, 228, 228);
 }
 
 // Mixins
 @mixin letras {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .fuente{

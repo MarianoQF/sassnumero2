@@ -1,4 +1,14 @@
-// media de index.html 768px
+// Mediasqueries de todas las páginas que hacen al sitio responsive
+
+// media de index.html
+// 1150px
+@media screen and (max-width:1150px){
+    .alg-clientes{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+// 768px
 @media screen and (max-width:768px){
     .main-index{
         flex-wrap: wrap;
@@ -20,7 +30,16 @@
     }
 }
 
-// media de sobrenos.html 768px
+// media de sobrenos.html
+// 1150px
+@media screen and (max-width: 1100px){
+    .sobrenos-main{
+        padding: 5px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        }
+    }
+// 768px
 @media screen and (max-width:768px){
     .sobrenos-main{
         padding: 5px;
@@ -41,10 +60,38 @@
 }
 
 // media de formacion.html 768px
-@media screen and (max-width:768px){}
-.parraf-gral-for{
-    font-size: 14px;
+@media screen and (max-width:768px){
+    .parraf-gral-for{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .cert-for{
+        display: grid;
+        grid-template-areas:
+        "img-forM1" 
+        "img-forM2"
+        "img-forM3" 
+        "img-forM4";
+    }
+    
+    .img-forM1{
+        padding: 10px;
+    }
+    
+    .img-forM2{
+        padding: 10px;
+    }
+    
+    .img-forM3{
+        padding: 10px;
+    }
+    
+    .img-forM4{
+        padding: 10px;
+    }
 }
+
 // media de experiencia.html 768px
 @media screen and (max-width:768px){}
 
@@ -56,6 +103,10 @@
 
     .main-contact{
         flex-wrap: wrap;
+        .txt-cont{
+            font-size: 18px;
+            font-weight: 400;
+        }
         .inv-form{
             font-size: 12px;
             width: 100%;
@@ -101,5 +152,38 @@
         flex-wrap: wrap;
         align-items: center;
         font-size: 12px;
+    }
+}
+
+// media header para todos los html
+@media screen and (max-width:768px){
+    .img-header{
+        height: 200px;
+    }
+        .head-princ{
+            height: 130px;
+            font-size: 80px !important;
+            font-weight: 500;
+        }
+        .txt-head{
+            height: 100px;
+            font-size: 40px!important;
+            font-weight: 100;
+        }
+    } 
+
+@media screen and (max-width:590px){
+    .img-header{
+        height: 200px;
+    }
+    .head-princ{
+        height: 115px;
+        font-size: 60px!important;
+        font-weight: 500;
+    }
+    .txt-head{
+        height: 85px;
+        font-size: 20px!important;
+        font-weight: 100;
     }
 }
